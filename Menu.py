@@ -12,15 +12,20 @@ while flag:
     print("")
     opcion = input("Ingrese la opcion que desee ingresar: ");
     if opcion == "1":
-        agregar_producto(coleccion)
+        #agregar_producto(coleccion)
+        print("")
     elif opcion == "2":
-        ver_productos(coleccion)
+        #ver_productos(coleccion)
+        print("")
     elif opcion == "3":
-        modificar_producto(coleccion)
+        print("")
+        #modificar_producto(coleccion)
     elif opcion == "4":
-        eliminar_producto(coleccion)
+        print("")
+        #eliminar_producto(coleccion)
     elif opcion == "5":
-        guardar_archivo(coleccion, nombre_archivo)
+        print("")
+        #guardar_archivo(coleccion, nombre_archivo)
     elif opcion == "6":
         print("Saliste del programa, hasta pronto!!!")
         flag = False
